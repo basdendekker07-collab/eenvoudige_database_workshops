@@ -16,7 +16,7 @@
     </header>
     <?php
     // Een extern bestand includen
-    include "includes/header.php";
+    include "../includes/header.php";
     ?>
 
     <main>

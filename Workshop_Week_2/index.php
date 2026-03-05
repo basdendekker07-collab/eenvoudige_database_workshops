@@ -16,7 +16,7 @@
     </header>
     <?php
     // Een extern bestand includen
-    include "includes/header.php";
+    include "../includes/header.php";
     ?>
 
     <main>
@@ -38,7 +38,7 @@
             Dit is mijn footer.
         </p>
         <?php
-        include "includes/functions.php";
+        include "../includes/functions.php";
 
         echo ShowDate();
         ?>
