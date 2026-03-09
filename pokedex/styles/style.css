@@ -1,0 +1,15 @@
+body
+{
+    background-color: cadetblue;
+}
+
+#overview
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#overview article
+{
+
+}
