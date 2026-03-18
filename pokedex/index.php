@@ -18,11 +18,14 @@
 </head>
 
 <body>
+
     <header>
         <h1>
             De Pokédex
         </h1>
     </header>
+
+    <a href="pokemon_toevoegen.php">Pokémon toevoegen</a>
 
     <main>
         <form action="index.php" method="GET">
