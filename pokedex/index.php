@@ -72,10 +72,12 @@
 
                 $img = $row["picture"];
                 $name = $row["name"];
+                $number = $row["number"];
 
                 echo "<article>";
                 echo $name;
-                echo "<img src='$img' alt='$name' width='50'>";
+                echo "<img src='$img' alt='$name' width='100'>";
+                echo "<a href='pokemon_bewerken.php?pokemonNumber=$number'>bewerken</a>";
                 echo "</article>";
             }
             ?>

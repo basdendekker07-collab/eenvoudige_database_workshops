@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c0b721c-20e3-4344-8b6f-92df8f83d34a" name="Changes" comment="een pagina gemaakt met de pokedex door middel van een datebase">
-      <change afterPath="$PROJECT_DIR$/pokedex/pokemon_toevoegen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokedex/pokemon_bewerken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/db_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db_functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex/pokemon_toevoegen.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/pokemon_toevoegen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +103,9 @@
       <workItem from="1772786146184" duration="3168000" />
       <workItem from="1773053237777" duration="3126000" />
       <workItem from="1773827324817" duration="2951000" />
+      <workItem from="1773916002557" duration="633000" />
+      <workItem from="1774259299520" duration="6515000" />
+      <workItem from="1774432156263" duration="2866000" />
     </task>
     <task id="LOCAL-00001" summary="Eerste commit">
       <option name="closed" value="true" />

@@ -32,8 +32,24 @@
         $species = $_POST ["pokemonSpecies"];
         $picture = $_POST ["pokemonPicture"];
 
-        echo $query = "INSERT INTO pokemon VALUES ('$name', '$number', '$type1', '$type2', '$ability', '$species', '$picture')";
+        $query = "INSERT INTO pokemon VALUES ('$name', '$number', '$type1', '$type2', '$ability', '$species', '$picture')";
+
+        include"../includes/db_functions.php";
+
+        startConnection("pokemondb");
+
+        $rowsEffected = executeQuery($query);
+
+        if($rowsEffected >= 1)
+            {
+                echo "U heeft $name toegevoegd";
+            }
+        else
+            {
+                echo "er is iets mis gegaan";
+            }
     }
+
     ?>
 
     <a href="index.php">pokédex</a>

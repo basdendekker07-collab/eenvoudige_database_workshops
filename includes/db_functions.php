@@ -48,4 +48,20 @@ function ExecuteSelectQuery($query){
     }
 }
 
+function executeQuery($query)
+{
+    global $conn;
+
+    try {
+        $result = $conn->exec($query);
+
+        return $result;
+    }
+    catch(PDOException $e)
+    {
+        echo "Query fout: " . $e->getMessage();
+        return 0;
+    }
+}
+
 ?>
