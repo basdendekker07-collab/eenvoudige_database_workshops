@@ -77,7 +77,8 @@
                 echo "<article>";
                 echo $name;
                 echo "<img src='$img' alt='$name' width='100'>";
-                echo "<a href='pokemon_bewerken.php?pokemonNumber=$number'>bewerken</a>";
+                echo "<a href='pokemon_bewerken.php?pokemonNumber=$number'>bewerken</a><br>";
+                echo "<a href='pokemon_verwijderen.php?pokemonNumber=$number'>verwijder</a>";
                 echo "</article>";
             }
             ?>
