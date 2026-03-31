@@ -38,8 +38,11 @@
 
             </fieldset>
         </form>
+
         <article id="overview">
             <?php
+            session_start();
+
             //includen van de db_functions map
             include "../includes/db_functions.php";
 
@@ -77,8 +80,11 @@
                 echo "<article>";
                 echo $name;
                 echo "<img src='$img' alt='$name' width='100'>";
-                echo "<a href='pokemon_bewerken.php?pokemonNumber=$number'>bewerken</a><br>";
-                echo "<a href='pokemon_verwijderen.php?pokemonNumber=$number'>verwijder</a>";
+                if(isset()
+                {
+                    echo "<a href='pokemon_bewerken.php?pokemonNumber=$number'>bewerken</a><br>";
+                    echo "<a href='pokemon_verwijderen.php?pokemonNumber=$number'>verwijder</a>";
+                }
                 echo "</article>";
             }
             ?>

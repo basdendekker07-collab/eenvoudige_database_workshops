@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0b721c-20e3-4344-8b6f-92df8f83d34a" name="Changes" comment="je kan nu een pokemon toevoegen aan de pagina en je kan elke individuele pokemon bewerken">
-      <change afterPath="$PROJECT_DIR$/pokedex/pokemon_verwijderen.php" afterDir="false" />
+    <list default="true" id="2c0b721c-20e3-4344-8b6f-92df8f83d34a" name="Changes" comment="verwijder pagina aangemaakt en waarschuwings scherm">
+      <change afterPath="$PROJECT_DIR$/pokedex/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/pokemon_bewerken.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/pokemon_bewerken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/pokemon_toevoegen.php" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/pokemon_toevoegen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,8 @@
       <workItem from="1773916002557" duration="633000" />
       <workItem from="1774259299520" duration="6515000" />
       <workItem from="1774432156263" duration="2866000" />
-      <workItem from="1774863909589" duration="3363000" />
+      <workItem from="1774863909589" duration="3482000" />
+      <workItem from="1774938636135" duration="2765000" />
     </task>
     <task id="LOCAL-00001" summary="Eerste commit">
       <option name="closed" value="true" />
@@ -140,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774863971036</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="verwijder pagina aangemaakt en waarschuwings scherm">
+      <option name="closed" value="true" />
+      <created>1774867407704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774867407704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +158,7 @@
     <MESSAGE value="Eerste keer database linken met behulp van php" />
     <MESSAGE value="een pagina gemaakt met de pokedex door middel van een datebase" />
     <MESSAGE value="je kan nu een pokemon toevoegen aan de pagina en je kan elke individuele pokemon bewerken" />
-    <option name="LAST_COMMIT_MESSAGE" value="je kan nu een pokemon toevoegen aan de pagina en je kan elke individuele pokemon bewerken" />
+    <MESSAGE value="verwijder pagina aangemaakt en waarschuwings scherm" />
+    <option name="LAST_COMMIT_MESSAGE" value="verwijder pagina aangemaakt en waarschuwings scherm" />
   </component>
 </project>
