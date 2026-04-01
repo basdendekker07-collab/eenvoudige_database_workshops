@@ -38,6 +38,10 @@
 
             </fieldset>
         </form>
+        <p>
+            Wil je pokémon bewerken of verwijderen? log dan hieronder in.
+        </p>
+        <a href="login.php">Log in</a>
 
         <article id="overview">
             <?php
@@ -80,7 +84,7 @@
                 echo "<article>";
                 echo $name;
                 echo "<img src='$img' alt='$name' width='100'>";
-                if(isset()
+                if(isset($_SESSION["user"]))
                 {
                     echo "<a href='pokemon_bewerken.php?pokemonNumber=$number'>bewerken</a><br>";
                     echo "<a href='pokemon_verwijderen.php?pokemonNumber=$number'>verwijder</a>";

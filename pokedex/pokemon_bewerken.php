@@ -55,6 +55,16 @@
 
         echo $updateQuery = "UPDATE pokemon SET name = '$name', number = '$number', type1 = '$type1', type2 = '$type2', ability = '$ability', species = '$species', picture = '$picture' WHERE 'number' = $pokemonNumber;";
 
+        $rowsEffected = ExecuteQuery($updateQuery);
+
+        if($rowsEffected >= 1)
+        {
+            echo "U heeft $currentName bewerkt";
+        }
+        else
+        {
+            "Er is iets mis qgegaan";
+        }
     }
 ?>
 

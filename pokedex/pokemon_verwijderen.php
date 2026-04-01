@@ -7,9 +7,6 @@
  * */
 ?>
 
-<?php
-$verwijder = 0;
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -42,9 +39,9 @@ if(isset($_POST["verwijder"])) {
 
     StartConnection("pokemondb");
 
-    $rowsAffected = ExecuteQuery($query);
+    $rowsEffected = ExecuteQuery($query);
 
-    if ($rowsAffected >= 1) {
+    if ($rowsEffected >= 1) {
         echo "succesvol verwijderd";
     } else {
         echo "Er is iets misgegaan";

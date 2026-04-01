@@ -24,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error = "Vul alle velden in.";
     } elseif ($username === $correct_username && $password === $correct_password) {
         $_SESSION["user"] = $username;
-        $loggedIn++;
         header("Location: index.php");
         exit();
     } else {
